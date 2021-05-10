@@ -43,7 +43,8 @@ export default function Card(card) {
         }
         .card__body p {
           color: white;
-          font-family: 'Roboto';
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           font-size: 1.3rem;
         }
         .card__body-cta {

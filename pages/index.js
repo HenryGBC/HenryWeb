@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Card from '../components/Card.js';
-
+import Link from 'next/link';
 export default function Home() {
   const cards = [
     {
@@ -33,11 +33,11 @@ export default function Home() {
     },
     {
       title: 'Mentorías',
-      description: `Estoy armando un plan de mentoría, para distintos niveles. 
+      description: `Estoy creando un plan de mentoría, para distintos niveles. 
             Desde alguien que no tiene ni idea del mundo de la programación,
             pasando por niveles básicos y avanzados.`,
       url: 'https://henrygbc.dev/mentor',
-      cta: 'Ir a pagina',
+      cta: 'Ir a página',
       icon: 'discord',
     },
   ];
@@ -70,7 +70,9 @@ export default function Home() {
         <div className={styles.profile}>
           <div className={styles.profileTop}>
             <div>
-              <h1>HenryGBC</h1>
+              <Link href="/">
+                <h1>HenryGBC</h1>
+              </Link>
             </div>
           </div>
           <div className={styles.profileBottom}>

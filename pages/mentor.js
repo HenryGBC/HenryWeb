@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Card from '../components/Card.js';
+import Link from 'next/link';
 
 export default function Mentor() {
   return (
@@ -32,7 +33,9 @@ export default function Mentor() {
         <div className={styles.profile}>
           <div className={styles.profileTop}>
             <div>
-              <h1>HenryGBC</h1>
+              <Link href="/">
+                <h1>HenryGBC</h1>
+              </Link>
             </div>
           </div>
           <div className={styles.profileBottom}>
@@ -46,12 +49,22 @@ export default function Mentor() {
           </div>
         </div>
         <div className={styles.page}>
-          <h2 className={styles.title}>Próximamente..</h2>
+          <h2>Próximamente..</h2>
 
-          <p className={styles.description}>
-            Estoy armando un plan de mentoría, para distintos niveles. <br></br>
-            Desde alguien que no tiene ni idea del mundo de la programación,
-            pasando por niveles básicos y avanzados.
+          <p>
+            Mi plan es elaborar un proceso de mentoría en
+            <strong> programación</strong> orientado a cualquier persona  que
+            desee conocer más sobre este mundo, sin importar el nivel de
+            conocimiento que tenga. 
+          </p>
+          <p>
+            El <strong>objetivo</strong> es compartir desde mi experiencia y
+            conocimiento los niveles básicos y avanzados que todo
+            <strong> desarrollador </strong>
+            necesita para potenciar sus habilidades y conocimientos. 
+          </p>
+          <p>
+            ¡Acompáñame en esta nueva aventura, <strong>pre-regístrate</strong>!
           </p>
 
           <a
@@ -59,7 +72,7 @@ export default function Mentor() {
             href="https://docs.google.com/forms/d/e/1FAIpQLSd_ZyoTFIkWo3zmtj6AwYemAHCTRJFVqvRAV_k1zQ5z5LXPqw/viewform?usp=sf_link"
             target="_blank"
           >
-            Pre registráte
+            Pre registro
           </a>
         </div>
       </div>
