@@ -69,7 +69,7 @@ export default function Mentor() {
 
           <a
             className={styles.button}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSd_ZyoTFIkWo3zmtj6AwYemAHCTRJFVqvRAV_k1zQ5z5LXPqw/viewform?usp=sf_link"
+            href="https://forms.gle/3G7zJHDMunUtTCBw9"
             target="_blank"
           >
             Pre registro
