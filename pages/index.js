@@ -17,7 +17,7 @@ export default function Home() {
     },
     {
       title: 'Mi Twitch',
-      description: `Me apasiona enseñar, y aprender enseñando, varias veces a la semana
+      description: `Me apasiona enseñar y aprender enseñando, varias veces a la semana
                     estoy en Twitch, enseñando y aprendiendo. También tengo charlas, entrevistas, en fin mucho desarrollo de software`,
       url: 'https://www.twitch.tv/henrygbc',
       cta: 'Ver Canal',
