@@ -6,6 +6,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  background-color: black;
 }
 .container {
   position: relative;
@@ -62,6 +63,18 @@
   max-width: 610px;
   position: absolute;
   right: 0;
+  padding-bottom: 5rem;
+}
+
+.coffee {
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+  z-index: 2;
+}
+
+.coffee img {
+  width: 180px;
 }
 
 .page {

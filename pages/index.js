@@ -89,7 +89,14 @@ export default function Home() {
           })}
         </div>
       </div>
-
+      <div className={styles.coffee}>
+        <a href="https://www.buymeacoffee.com/henrygbc" target="_blank">
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+          />
+        </a>
+      </div>
       <video autoPlay muted loop className={styles.video}>
         <source src="/video/video-bg.mp4" type="video/mp4" />
       </video>

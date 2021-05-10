@@ -7,20 +7,16 @@ export default function Mentor() {
   return (
     <main>
       <Head>
-        <title>HenryGBC - Software Developer | Mentoría</title>
+        <title>HenryGBC - Software Developer</title>
         <meta name="description" content="HenryGBC - Software Engineer" />
         <link rel="icon" href="/favicon.ico" />
-        <Head>
-          <title>HenryGBC - Software Developer</title>
-          <meta name="description" content="HenryGBC - Software Engineer" />
-          <link rel="icon" href="/favicon.ico" />
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=UA-118797996-1`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=UA-118797996-1`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
              
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
@@ -28,9 +24,8 @@ export default function Mentor() {
 
                 gtag('config', 'UA-118797996-1');
           `,
-            }}
-          />
-        </Head>
+          }}
+        />
       </Head>
 
       <div className={styles.container}>
@@ -68,7 +63,14 @@ export default function Mentor() {
           </a>
         </div>
       </div>
-
+      <div className={styles.coffee}>
+        <a href="https://www.buymeacoffee.com/henrygbc" target="_blank">
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+          />
+        </a>
+      </div>
       <video autoPlay muted loop className={styles.video}>
         <source src="/video/video-bg.mp4" type="video/mp4" />
       </video>
